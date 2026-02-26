@@ -1,0 +1,32 @@
+{
+  "name": "sludge-crypt",
+  "version": "1.0.3",
+  "description": "Safe encryption of data using sludge matter decay calculations and PFS with AES256-GCM encryption",
+  "main": "sludge.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "encryption",
+    "cryptography",
+    "ecdh",
+    "aes-256-gcm",
+    "security",
+    "geodesic",
+    "webassembly",
+    "perfect-forward-secrecy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carlosgalveias/sludge-crypt-public.git"
+  },
+  "author": "Carlos Galveias",
+  "license": "ISC",
+  "files": [
+    "sludge.min.js",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
