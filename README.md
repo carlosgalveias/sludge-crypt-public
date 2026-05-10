@@ -60,7 +60,8 @@ npm install sludge-crypt
 ### Basic Usage
 
 ```javascript
-const { compose, decompose, generateBilePair } = require('sludge-crypt');
+import pkg from './sludge.test.js';
+const { compose, decompose, generateBilePair } = pkg;
 
 // Generate key pairs for sender and recipient
 const recipientKeys = await generateBilePair();

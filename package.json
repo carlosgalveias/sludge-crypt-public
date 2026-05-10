@@ -1,6 +1,6 @@
 {
   "name": "sludge-crypt",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Safe encryption of data using sludge matter decay calculations and PFS with AES256-GCM encryption",
   "main": "sludge.min.js",
   "scripts": {
